@@ -1,0 +1,23 @@
+// Matrix is a two-dimensional array and each element of him has two index,
+// a row number and a column number.So that is we used two loop in matrix.
+
+// Объявить двумерный массив, заполнить целыми числами и показать на экран. 
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int matrix[3][4];
+    
+    for(int i = 0; i < 3; i++)
+    {
+        for(int j = 0; j < 4; j++)
+        {
+            matrix[i][j] = i + j;
+            cout << " " << matrix[i][j]; 
+        }    
+        cout << endl;
+    }
+    
+     return 0;
+}
